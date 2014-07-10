@@ -1,10 +1,18 @@
-{{log this}}
 
 {{>header}}
 
 <div class="webkite-results-wrapper">
   {{#if items.length}}
-    {{#each this.items~}}
+    {{#each (groupedItems this.items)~}}
+    <h2>{{@key}}</h2>
+
+    {{#with (find ../facets name=../groups.facet) }}
+      {{#with (find this.tags key=(add @key '_description')) }}
+      <h4>{{ this.value }}</h4>
+      {{/with}}
+    {{/with}}
+
+    {{#each this~}}
       <section class="webkite-result webkite-block">
       
         {{#any (find facets name="Meal") (find facets name="Diet")}}
@@ -137,6 +145,7 @@
         </div><!-- webkite-item-details -->
         
       </section>
+    {{~/each~}}
     {{~/each~}}
   
   {{else}}
