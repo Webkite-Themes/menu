@@ -37,3 +37,12 @@ assets:
     - noresult.handlebars.js
     - footer.handlebars.js
     - paginator.handlebars.js
+
+preview-images:
+  light:
+    small: light-small.png
+    large: light-large.png
+  dark:
+    small: dark-small.png
+    large: dark-large.png
+
