@@ -40,8 +40,8 @@
        --><div class="webkite-block thirty price">
             {{#facet name="Price"}}<h3 class="until-xs" title="{{displayValue}}">{{displayValue}}</h3>{{/facet}}
             {{#any (find facets name="Meal") (find facets name="Dish Type") (find facets name="Diet") (find facets name="Calories") (find facets name="Total Fat (g)") (find facets name="Cholesterol (mg)")}}
-              <a href="#{{this.id}}" data-id={{this.id}} class="webkite-toggle-item webkite-toggle {{this.id}}-toggler{{#if showDetails}} webkite-hide{{/if}} more-button" data-target=".{{this.id}}-toggler" data-speed="200ms">more</a>
-              <a href="#{{this.id}}" data-id={{this.id}} class="webkite-toggle-item webkite-toggle {{this.id}}-toggler{{#unless showDetails}} webkite-hide{{/unless}} less-button" data-target=".{{this.id}}-toggler" data-speed="200ms">less</a>
+              <a href="#{{this.id}}" data-id={{this.id}} class="webkite-toggle-item webkite-toggle {{this.id}}-toggler{{#if showDetails}} webkite-hide{{/if}} more-button" data-target=".{{this.id}}-toggler" data-speed="200ms">{{downcase (t "More" default="more")}}</a>
+              <a href="#{{this.id}}" data-id={{this.id}} class="webkite-toggle-item webkite-toggle {{this.id}}-toggler{{#unless showDetails}} webkite-hide{{/unless}} less-button" data-target=".{{this.id}}-toggler" data-speed="200ms">{{downcase (t "Less" default="less")}}</a>
             {{/any}}
           </div>
         </div>
@@ -54,7 +54,7 @@
                   {{#if filterable}}
                     <div>
                     <b class="inline-filter-button">
-                      <a class="webkite-toggle" data-target=".{{../../id}}-{{parameterize name}}-menu">{{downcase displayName}}<i></i></a>
+                      <a class="webkite-toggle" data-target=".{{../../id}}-{{parameterize name}}-menu" title="{{displayName}}">{{downcase displayName}}<i></i></a>
                       <ul class="{{../../id}}-{{name}}-menu inline-filter-menu webkite-hide webkite-menu">
                         {{#each filterableValues}}
                           <li><a href="#" class="webkite-add-filter webkite-toggle" data-target=".{{../../../id}}-{{parameterize ../name}}-menu" data-facet="{{../name}}" data-operator="is" data-value="{{this}}">{{this}}</a></li>
@@ -77,7 +77,7 @@
                   {{#if filterable}}
                     <div>
                     <b class="inline-filter-button">
-                      <a class="webkite-toggle" data-target=".{{../../id}}-{{parameterize name}}-menu">{{downcase displayName}}<i></i></a>
+                      <a class="webkite-toggle" data-target=".{{../../id}}-{{parameterize name}}-menu" title="{{displayName}}">{{downcase displayName}}<i></i></a>
                       <ul class="{{../../id}}-Dish-Type-menu inline-filter-menu webkite-hide webkite-menu">
                         {{#each filterableValues}}
                           <li><a href="#" class="webkite-add-filter webkite-toggle" data-target=".{{../../../id}}-{{parameterize ../name}}-menu" data-facet="{{../name}}" data-operator="is" data-value="{{this}}">{{this}}</a></li>
@@ -100,7 +100,7 @@
                   {{#if filterable}}
                     <div>
                     <b class="inline-filter-button">
-                      <a class="webkite-toggle" data-target=".{{../../id}}-{{parameterize name}}-menu">{{downcase displayName}}<i></i></a>
+                      <a class="webkite-toggle" data-target=".{{../../id}}-{{parameterize name}}-menu" title="{{displayName}}">{{downcase displayName}}<i></i></a>
                       <ul class="{{../../id}}-{{name}}-menu inline-filter-menu webkite-hide webkite-menu">
                         {{#each filterableValues}}
                           <li><a href="#" class="webkite-add-filter webkite-toggle" data-target=".{{../../../id}}-{{parameterize ../name}}-menu" data-facet="{{../name}}" data-operator="is" data-value="{{this}}">{{this}}</a></li>
@@ -122,15 +122,15 @@
        --><div class="webkite-block forty webkite-menu-nutrition">
             <ul class="webkite-list-plain">
               {{#facet name="Calories"}}
-                <li>{{displayValue}} cal</li>
+                <li>{{displayValue}} {{downcase (t "Calories" default="cal")}}</li>
               {{/facet}}
               
               {{#facet name="Total Fat (g)"}}
-                <li>{{displayValue}} g total fat</li>
+                <li>{{displayValue}} g {{downcase (t "Total Fat" default="total fat")}}</li>
               {{/facet}}
               
               {{#facet name="Cholesterol (mg)"}}
-                <li>{{displayValue}} mg cholesterol</li>
+                <li>{{displayValue}} mg {{downcase (t "Cholesterol" default="cholesterol")}}</li>
               {{/facet}}
             </ul>
           </div>
