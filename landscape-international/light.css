@@ -652,100 +652,111 @@
     margin: 0; }
 
 /************************************ LANDSCAPE RESULTS */
-#webkite-results .webkite-results-wrapper {
-  margin-top: 0;
-  margin-left: -10px;
-  margin-right: -10px;
-  margin-bottom: 20px; }
-#webkite-results .webkite-result {
-  text-align: justify;
-  position: relative;
-  margin-bottom: 24px;
-  padding: 0 10px;
-  font-size: 12px;
-  width: 50%; }
-  #webkite-results .webkite-result:nth-child(even) {
-    border-left: 1px dotted rgba(0, 0, 0, 0.1);
-    margin-left: -1px; }
-  #webkite-results .webkite-result h2 {
-    line-height: 1.1;
-    margin-bottom: 2px; }
-  #webkite-results .webkite-result .xs-price {
-    font-weight: 400;
-    line-height: 1;
-    margin: -2px 0 0;
-    padding-bottom: 8px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap; }
-#webkite-results .webkite-result-header {
-  line-height: 1;
-  margin-bottom: 4px;
-  color: rgba(0, 0, 0, 0.5); }
-  #webkite-results .webkite-result-header .webkite-meal {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 11px; }
-    #webkite-results .webkite-result-header .webkite-meal a {
-      text-transform: inherit;
-      font-weight: inherit; }
-  #webkite-results .webkite-result-header .webkite-diet {
-    font-style: italic;
-    font-size: 13px; }
-    #webkite-results .webkite-result-header .webkite-diet a {
-      font-style: inherit;
-      font-family: Georgia, serif; }
-  #webkite-results .webkite-result-header .webkite-meal + .webkite-diet {
-    margin-top: 1px; }
-#webkite-results .price {
-  text-align: right; }
-  #webkite-results .price h3 {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap; }
-#webkite-results a.more-button, #webkite-results a.less-button {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
-  border-radius: 3px;
-  color: rgba(0, 0, 0, 0.7);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  display: inline-block;
-  float: right;
-  font: 400 12px/1 'Open Sans', 'Arial', sans-serif;
-  padding: 4px 10px;
-  margin-top: 8px;
-  text-align: center; }
-#webkite-results a.more-button {
-  background: none; }
-  #webkite-results a.more-button:hover {
-    background: rgba(0, 0, 0, 0.1);
-    border-color: rgba(0, 0, 0, 0.1); }
-#webkite-results a.less-button {
-  background: rgba(0, 0, 0, 0.6);
-  border-color: transparent;
-  color: rgba(255, 255, 255, 0.95); }
-  #webkite-results a.less-button:hover {
-    background: rgba(0, 0, 0, 0.6); }
-#webkite-results .webkite-result .webkite-item-details {
-  margin-top: 10px; }
-  #webkite-results .webkite-result .webkite-item-details .webkite-menu-nutrition {
-    font-size: 11px;
-    text-align: right;
+#webkite-results {
+  /* groups */ }
+  #webkite-results .webkite-results-wrapper {
+    margin-top: 0;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 20px; }
+  #webkite-results .webkite-group-name {
     color: rgba(0, 0, 0, 0.6);
-    line-height: 1.2; }
-    #webkite-results .webkite-result .webkite-item-details .webkite-menu-nutrition li + li {
-      padding-top: 2px; }
-#webkite-results .webkite-result-footer {
-  clear: both;
-  display: block;
-  padding-top: 20px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-  text-align: right; }
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1em;
+    text-align: center;
+    text-transform: uppercase; }
+  #webkite-results .webkite-group {
+    margin-top: 20px; }
+  #webkite-results .webkite-result {
+    text-align: justify;
+    position: relative;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    font-size: 12px;
+    width: 50%; }
+    #webkite-results .webkite-result:nth-child(even) {
+      border-left: 1px dotted rgba(0, 0, 0, 0.1);
+      margin-left: -1px; }
+    #webkite-results .webkite-result h2 {
+      line-height: 1.1;
+      margin-bottom: 2px; }
+    #webkite-results .webkite-result .xs-price {
+      font-weight: 400;
+      line-height: 1;
+      margin: -2px 0 0;
+      padding-bottom: 8px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap; }
+  #webkite-results .webkite-result-header {
+    line-height: 1;
+    margin-bottom: 4px;
+    color: rgba(0, 0, 0, 0.5); }
+    #webkite-results .webkite-result-header .webkite-meal {
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 11px; }
+      #webkite-results .webkite-result-header .webkite-meal a {
+        text-transform: inherit;
+        font-weight: inherit; }
+    #webkite-results .webkite-result-header .webkite-diet {
+      font-style: italic;
+      font-size: 13px; }
+      #webkite-results .webkite-result-header .webkite-diet a {
+        font-style: inherit;
+        font-family: Georgia, serif; }
+    #webkite-results .webkite-result-header .webkite-meal + .webkite-diet {
+      margin-top: 1px; }
+  #webkite-results .price {
+    text-align: right; }
+    #webkite-results .price h3 {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap; }
+  #webkite-results a.more-button, #webkite-results a.less-button {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    color: rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    float: right;
+    font: 400 12px/1 'Open Sans', 'Arial', sans-serif;
+    padding: 4px 10px;
+    margin-top: 8px;
+    text-align: center; }
+  #webkite-results a.more-button {
+    background: none; }
+    #webkite-results a.more-button:hover {
+      background: rgba(0, 0, 0, 0.1);
+      border-color: rgba(0, 0, 0, 0.1); }
+  #webkite-results a.less-button {
+    background: rgba(0, 0, 0, 0.6);
+    border-color: transparent;
+    color: rgba(255, 255, 255, 0.95); }
+    #webkite-results a.less-button:hover {
+      background: rgba(0, 0, 0, 0.6); }
+  #webkite-results .webkite-result .webkite-item-details {
+    margin-top: 10px; }
+    #webkite-results .webkite-result .webkite-item-details .webkite-menu-nutrition {
+      font-size: 11px;
+      text-align: right;
+      color: rgba(0, 0, 0, 0.6);
+      line-height: 1.2; }
+      #webkite-results .webkite-result .webkite-item-details .webkite-menu-nutrition li + li {
+        padding-top: 2px; }
+  #webkite-results .webkite-result-footer {
+    clear: both;
+    display: block;
+    padding-top: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    text-align: right; }
 
 /************************************** INLINE FILTERS */
 #webkite-results .webkite-block li b {
@@ -834,7 +845,10 @@
   width: 100%;
   padding-right: 0; }
 #webkite-results.xs .webkite-results-wrapper {
-  margin: 0; }
+  margin: 0 0 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+#webkite-results.xs .webkite-group-name {
+  text-align: left; }
 #webkite-results.xs .webkite-result {
   width: 100%;
   border: none;
@@ -843,6 +857,9 @@
   padding: 0 0 20px; }
   #webkite-results.xs .webkite-result:nth-child(even) {
     border-left: none; }
+  #webkite-results.xs .webkite-result:last-child {
+    border-bottom: none;
+    padding-bottom: 0px; }
   #webkite-results.xs .webkite-result .webkite-item-details .webkite-menu-nutrition {
     font-size: 12px;
     text-align: left;
@@ -855,10 +872,11 @@
   width: auto; }
 #webkite-results.xs .webkite-no-results {
   padding: 0;
-  margin-bottom: 20px; }
+  margin: 0 0 20px; }
 
 #webkite-results.sm .webkite-results-wrapper {
-  margin: 0; }
+  margin: 0 0 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
 #webkite-results.sm .webkite-result {
   width: 100%;
   border: none;
@@ -870,13 +888,16 @@
   #webkite-results.sm .webkite-result:nth-child(even) {
     border-left: none;
     margin-left: 0; }
+  #webkite-results.sm .webkite-result:last-child {
+    border-bottom: none;
+    padding-bottom: 0px; }
   #webkite-results.sm .webkite-result .webkite-item-details .webkite-menu-nutrition {
     font-size: 12px; }
 #webkite-results.sm ul.webkite-list-grid li > div {
   width: 30%; }
 #webkite-results.sm .webkite-no-results {
   padding: 0;
-  margin-bottom: 20px; }
+  margin: 0 0 20px; }
 
 /*************************** DISPLAY RULES */
 #webkite-results .xs-only {
