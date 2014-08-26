@@ -14,9 +14,9 @@
           <section class="webkite-result webkite-block">
           
             {{#any (find facets name="Meal") (find facets name="Diet")}}
-              <div{{#unless @key}} class="webkite-result-header"{{/unless}}>
-                {{#unless @key}}
-                  {{#facet name="Meal"}}
+              <div class="webkite-result-header">
+                {{~#unless @key~}}
+                  {{#facet name="zz"}}
                     <div class="webkite-meal">
                       {{#if filterable}}
                         {{#each values}}<a href="#" class="webkite-add-filter" data-facet="{{../name}}" data-operator="is" data-value="{{this}}">{{this}}</a>{{#unless @last}}, {{/unless}}{{/each}}
@@ -25,9 +25,8 @@
                       {{/if}}
                     </div>
                   {{/facet}}
-                {{/unless}}
-          
-                {{#facet name="Diet"}}
+                {{~/unless~}}
+                {{~#facet name="zz"~}}
                   <div class="webkite-diet">
                     {{#if filterable}}
                       {{#each values}}<a href="#" class="webkite-add-filter" data-facet="{{../name}}" data-operator="is" data-value="{{this}}">{{downcase this}}</a>{{#unless @last}}, {{/unless}}{{/each}}
@@ -35,7 +34,7 @@
                       {{downcase displayValue}}
                     {{/if}}
                   </div>
-                {{/facet}}
+                {{~/facet~}}
               </div>
             {{/any}}
       

@@ -171,6 +171,7 @@ $colorVariant:light;
     line-height:1;
     margin-bottom:$mainGutter/5;
     color:rgba(0,0,0,0.5);
+    &:empty{display:none;}
     .webkite-meal {
       text-transform:uppercase;
       font-weight:700;

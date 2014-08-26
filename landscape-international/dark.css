@@ -694,6 +694,8 @@
     line-height: 1;
     margin-bottom: 4px;
     color: rgba(255, 255, 255, 0.55); }
+    #webkite-results .webkite-result-header:empty {
+      display: none; }
     #webkite-results .webkite-result-header .webkite-meal {
       text-transform: uppercase;
       font-weight: 700;
