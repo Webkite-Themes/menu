@@ -16,7 +16,7 @@
             {{#any (find facets name="Meal") (find facets name="Diet")}}
               <div class="webkite-result-header">
                 {{~#unless @key~}}
-                  {{#facet name="zz"}}
+                  {{#facet name="Meal"}}
                     <div class="webkite-meal">
                       {{#if filterable}}
                         {{#each values}}<a href="#" class="webkite-add-filter" data-facet="{{../name}}" data-operator="is" data-value="{{this}}">{{this}}</a>{{#unless @last}}, {{/unless}}{{/each}}
@@ -26,7 +26,7 @@
                     </div>
                   {{/facet}}
                 {{~/unless~}}
-                {{~#facet name="zz"~}}
+                {{~#facet name="Diet"~}}
                   <div class="webkite-diet">
                     {{#if filterable}}
                       {{#each values}}<a href="#" class="webkite-add-filter" data-facet="{{../name}}" data-operator="is" data-value="{{this}}">{{downcase this}}</a>{{#unless @last}}, {{/unless}}{{/each}}
