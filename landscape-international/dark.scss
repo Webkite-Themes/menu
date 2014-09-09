@@ -1,4 +1,5 @@
 $colorVariant:dark;
+$themeName:menu-landscape;
 
 $dottedBorder: rgba(255,255,255,0.2);
 
@@ -6,12 +7,12 @@ $dottedBorder: rgba(255,255,255,0.2);
 @import '../globals/universals';
 
 /* RESET */
-#webkite-results{
+#webkite-results.#{$themeName}{
   @include resetThings;
   }
 
 /****************************************** BEGIN STYLES */
-#webkite-results{
+#webkite-results.#{$themeName}{
   background: $backgroundColor;
   border: 1px solid $lighterOpacity;
   background-clip: padding-box;
@@ -30,7 +31,7 @@ $dottedBorder: rgba(255,255,255,0.2);
   }
   
 /* TYPOGRAPHY */
-#webkite-results{
+#webkite-results.#{$themeName}{
   h1, h2, h3{
     margin: 0;
     }
@@ -59,7 +60,7 @@ $dottedBorder: rgba(255,255,255,0.2);
 @include universalStyles;
   
 /********************************************** BLOCKS */
-#webkite-results{
+#webkite-results.#{$themeName}{
   .webkite-block{
     display: inline-block;
     vertical-align: top;
@@ -80,7 +81,7 @@ $dottedBorder: rgba(255,255,255,0.2);
   }
   
 /********************************************** LISTS */
-#webkite-results {
+#webkite-results.#{$themeName} {
   ul.webkite-list-grid {
     margin:0;
     display:table;
@@ -123,7 +124,7 @@ $dottedBorder: rgba(255,255,255,0.2);
   
   
 /************************************ LANDSCAPE RESULTS */
-#webkite-results{
+#webkite-results.#{$themeName}{
   .webkite-results-wrapper {
     margin-top:0;
     margin-left: -$mainGutter/2;
@@ -239,7 +240,7 @@ $dottedBorder: rgba(255,255,255,0.2);
   }
   
 /************************************** INLINE FILTERS */
-#webkite-results{
+#webkite-results.#{$themeName}{
 
   .webkite-block li b{
     position: relative;
@@ -310,7 +311,7 @@ $dottedBorder: rgba(255,255,255,0.2);
 }
 
 /******************************************* NO RESULTS */
-#webkite-results{
+#webkite-results.#{$themeName}{
   
   .webkite-no-results{
     padding: 0 $mainGutter/2;
@@ -323,7 +324,7 @@ $dottedBorder: rgba(255,255,255,0.2);
   }
   
 /************************************** ELEMENT QUERIES */
-#webkite-results.xs{
+#webkite-results.#{$themeName}.xs{
   .webkite-block{
     width: 100%;
     padding-right: 0;
@@ -365,7 +366,7 @@ $dottedBorder: rgba(255,255,255,0.2);
     }    
   }
   
-#webkite-results.sm{
+#webkite-results.#{$themeName}.sm{
   .webkite-results-wrapper {
     margin:0 0 $mainGutter;
     border-bottom:1px solid $lighterOpacity;
@@ -398,11 +399,11 @@ $dottedBorder: rgba(255,255,255,0.2);
   }
   
 /*************************** DISPLAY RULES */
-#webkite-results {
+#webkite-results.#{$themeName} {
   .xs-only {display:none;}
   .until-xs {display:block;}
   }
-#webkite-results.xs {
+#webkite-results.#{$themeName}.xs {
   .xs-only {display:block;}
   .until-xs {display:none;}
   }
