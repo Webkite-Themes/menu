@@ -1,8 +1,8 @@
 @import url("//fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700");
 /* RESET */
-#webkite-results.menu-landscape-international {
+#webkite-results.menu-landscape-international.webkite-dark {
   /* HTML5 display-role reset for older browsers */ }
-  #webkite-results.menu-landscape-international div, #webkite-results.menu-landscape-international span, #webkite-results.menu-landscape-international applet, #webkite-results.menu-landscape-international object, #webkite-results.menu-landscape-international iframe, #webkite-results.menu-landscape-international h1, #webkite-results.menu-landscape-international h2, #webkite-results.menu-landscape-international h3, #webkite-results.menu-landscape-international h4, #webkite-results.menu-landscape-international h5, #webkite-results.menu-landscape-international h6, #webkite-results.menu-landscape-international p, #webkite-results.menu-landscape-international blockquote, #webkite-results.menu-landscape-international pre, #webkite-results.menu-landscape-international a, #webkite-results.menu-landscape-international abbr, #webkite-results.menu-landscape-international acronym, #webkite-results.menu-landscape-international address, #webkite-results.menu-landscape-international big, #webkite-results.menu-landscape-international cite, #webkite-results.menu-landscape-international code, #webkite-results.menu-landscape-international del, #webkite-results.menu-landscape-international dfn, #webkite-results.menu-landscape-international em, #webkite-results.menu-landscape-international img, #webkite-results.menu-landscape-international ins, #webkite-results.menu-landscape-international kbd, #webkite-results.menu-landscape-international q, #webkite-results.menu-landscape-international s, #webkite-results.menu-landscape-international samp, #webkite-results.menu-landscape-international small, #webkite-results.menu-landscape-international strike, #webkite-results.menu-landscape-international strong, #webkite-results.menu-landscape-international sub, #webkite-results.menu-landscape-international sup, #webkite-results.menu-landscape-international tt, #webkite-results.menu-landscape-international var, #webkite-results.menu-landscape-international b, #webkite-results.menu-landscape-international u, #webkite-results.menu-landscape-international i, #webkite-results.menu-landscape-international center, #webkite-results.menu-landscape-international dl, #webkite-results.menu-landscape-international dt, #webkite-results.menu-landscape-international dd, #webkite-results.menu-landscape-international ol, #webkite-results.menu-landscape-international ul, #webkite-results.menu-landscape-international li, #webkite-results.menu-landscape-international fieldset, #webkite-results.menu-landscape-international form, #webkite-results.menu-landscape-international label, #webkite-results.menu-landscape-international legend, #webkite-results.menu-landscape-international table, #webkite-results.menu-landscape-international caption, #webkite-results.menu-landscape-international tbody, #webkite-results.menu-landscape-international tfoot, #webkite-results.menu-landscape-international thead, #webkite-results.menu-landscape-international tr, #webkite-results.menu-landscape-international th, #webkite-results.menu-landscape-international td, #webkite-results.menu-landscape-international article, #webkite-results.menu-landscape-international aside, #webkite-results.menu-landscape-international canvas, #webkite-results.menu-landscape-international details, #webkite-results.menu-landscape-international embed, #webkite-results.menu-landscape-international figure, #webkite-results.menu-landscape-international figcaption, #webkite-results.menu-landscape-international footer, #webkite-results.menu-landscape-international header, #webkite-results.menu-landscape-international hgroup, #webkite-results.menu-landscape-international menu, #webkite-results.menu-landscape-international nav, #webkite-results.menu-landscape-international output, #webkite-results.menu-landscape-international ruby, #webkite-results.menu-landscape-international section, #webkite-results.menu-landscape-international summary, #webkite-results.menu-landscape-international time, #webkite-results.menu-landscape-international mark, #webkite-results.menu-landscape-international audio, #webkite-results.menu-landscape-international video {
+  #webkite-results.menu-landscape-international.webkite-dark div, #webkite-results.menu-landscape-international.webkite-dark span, #webkite-results.menu-landscape-international.webkite-dark applet, #webkite-results.menu-landscape-international.webkite-dark object, #webkite-results.menu-landscape-international.webkite-dark iframe, #webkite-results.menu-landscape-international.webkite-dark h1, #webkite-results.menu-landscape-international.webkite-dark h2, #webkite-results.menu-landscape-international.webkite-dark h3, #webkite-results.menu-landscape-international.webkite-dark h4, #webkite-results.menu-landscape-international.webkite-dark h5, #webkite-results.menu-landscape-international.webkite-dark h6, #webkite-results.menu-landscape-international.webkite-dark p, #webkite-results.menu-landscape-international.webkite-dark blockquote, #webkite-results.menu-landscape-international.webkite-dark pre, #webkite-results.menu-landscape-international.webkite-dark a, #webkite-results.menu-landscape-international.webkite-dark abbr, #webkite-results.menu-landscape-international.webkite-dark acronym, #webkite-results.menu-landscape-international.webkite-dark address, #webkite-results.menu-landscape-international.webkite-dark big, #webkite-results.menu-landscape-international.webkite-dark cite, #webkite-results.menu-landscape-international.webkite-dark code, #webkite-results.menu-landscape-international.webkite-dark del, #webkite-results.menu-landscape-international.webkite-dark dfn, #webkite-results.menu-landscape-international.webkite-dark em, #webkite-results.menu-landscape-international.webkite-dark img, #webkite-results.menu-landscape-international.webkite-dark ins, #webkite-results.menu-landscape-international.webkite-dark kbd, #webkite-results.menu-landscape-international.webkite-dark q, #webkite-results.menu-landscape-international.webkite-dark s, #webkite-results.menu-landscape-international.webkite-dark samp, #webkite-results.menu-landscape-international.webkite-dark small, #webkite-results.menu-landscape-international.webkite-dark strike, #webkite-results.menu-landscape-international.webkite-dark strong, #webkite-results.menu-landscape-international.webkite-dark sub, #webkite-results.menu-landscape-international.webkite-dark sup, #webkite-results.menu-landscape-international.webkite-dark tt, #webkite-results.menu-landscape-international.webkite-dark var, #webkite-results.menu-landscape-international.webkite-dark b, #webkite-results.menu-landscape-international.webkite-dark u, #webkite-results.menu-landscape-international.webkite-dark i, #webkite-results.menu-landscape-international.webkite-dark center, #webkite-results.menu-landscape-international.webkite-dark dl, #webkite-results.menu-landscape-international.webkite-dark dt, #webkite-results.menu-landscape-international.webkite-dark dd, #webkite-results.menu-landscape-international.webkite-dark ol, #webkite-results.menu-landscape-international.webkite-dark ul, #webkite-results.menu-landscape-international.webkite-dark li, #webkite-results.menu-landscape-international.webkite-dark fieldset, #webkite-results.menu-landscape-international.webkite-dark form, #webkite-results.menu-landscape-international.webkite-dark label, #webkite-results.menu-landscape-international.webkite-dark legend, #webkite-results.menu-landscape-international.webkite-dark table, #webkite-results.menu-landscape-international.webkite-dark caption, #webkite-results.menu-landscape-international.webkite-dark tbody, #webkite-results.menu-landscape-international.webkite-dark tfoot, #webkite-results.menu-landscape-international.webkite-dark thead, #webkite-results.menu-landscape-international.webkite-dark tr, #webkite-results.menu-landscape-international.webkite-dark th, #webkite-results.menu-landscape-international.webkite-dark td, #webkite-results.menu-landscape-international.webkite-dark article, #webkite-results.menu-landscape-international.webkite-dark aside, #webkite-results.menu-landscape-international.webkite-dark canvas, #webkite-results.menu-landscape-international.webkite-dark details, #webkite-results.menu-landscape-international.webkite-dark embed, #webkite-results.menu-landscape-international.webkite-dark figure, #webkite-results.menu-landscape-international.webkite-dark figcaption, #webkite-results.menu-landscape-international.webkite-dark footer, #webkite-results.menu-landscape-international.webkite-dark header, #webkite-results.menu-landscape-international.webkite-dark hgroup, #webkite-results.menu-landscape-international.webkite-dark menu, #webkite-results.menu-landscape-international.webkite-dark nav, #webkite-results.menu-landscape-international.webkite-dark output, #webkite-results.menu-landscape-international.webkite-dark ruby, #webkite-results.menu-landscape-international.webkite-dark section, #webkite-results.menu-landscape-international.webkite-dark summary, #webkite-results.menu-landscape-international.webkite-dark time, #webkite-results.menu-landscape-international.webkite-dark mark, #webkite-results.menu-landscape-international.webkite-dark audio, #webkite-results.menu-landscape-international.webkite-dark video {
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -24,35 +24,35 @@
     -ms-transition: none;
     -o-transition: all 0 none;
     transition: none; }
-  #webkite-results.menu-landscape-international button, #webkite-results.menu-landscape-international select, #webkite-results.menu-landscape-international input {
+  #webkite-results.menu-landscape-international.webkite-dark button, #webkite-results.menu-landscape-international.webkite-dark select, #webkite-results.menu-landscape-international.webkite-dark input {
     text-transform: none; }
-    #webkite-results.menu-landscape-international button:active, #webkite-results.menu-landscape-international select:active, #webkite-results.menu-landscape-international input:active {
+    #webkite-results.menu-landscape-international.webkite-dark button:active, #webkite-results.menu-landscape-international.webkite-dark select:active, #webkite-results.menu-landscape-international.webkite-dark input:active {
       -moz-box-shadow: none;
       -webkit-box-shadow: none;
       box-shadow: none; }
-  #webkite-results.menu-landscape-international button::-moz-focus-inner {
+  #webkite-results.menu-landscape-international.webkite-dark button::-moz-focus-inner {
     padding: 0;
     border: 0; }
-  #webkite-results.menu-landscape-international article, #webkite-results.menu-landscape-international aside, #webkite-results.menu-landscape-international details, #webkite-results.menu-landscape-international figcaption, #webkite-results.menu-landscape-international figure, #webkite-results.menu-landscape-international footer, #webkite-results.menu-landscape-international header, #webkite-results.menu-landscape-international hgroup, #webkite-results.menu-landscape-international menu, #webkite-results.menu-landscape-international nav, #webkite-results.menu-landscape-international section {
+  #webkite-results.menu-landscape-international.webkite-dark article, #webkite-results.menu-landscape-international.webkite-dark aside, #webkite-results.menu-landscape-international.webkite-dark details, #webkite-results.menu-landscape-international.webkite-dark figcaption, #webkite-results.menu-landscape-international.webkite-dark figure, #webkite-results.menu-landscape-international.webkite-dark footer, #webkite-results.menu-landscape-international.webkite-dark header, #webkite-results.menu-landscape-international.webkite-dark hgroup, #webkite-results.menu-landscape-international.webkite-dark menu, #webkite-results.menu-landscape-international.webkite-dark nav, #webkite-results.menu-landscape-international.webkite-dark section {
     display: block; }
-  #webkite-results.menu-landscape-international body {
+  #webkite-results.menu-landscape-international.webkite-dark body {
     line-height: 1; }
-  #webkite-results.menu-landscape-international ol, #webkite-results.menu-landscape-international ul, #webkite-results.menu-landscape-international ul li {
+  #webkite-results.menu-landscape-international.webkite-dark ol, #webkite-results.menu-landscape-international.webkite-dark ul, #webkite-results.menu-landscape-international.webkite-dark ul li {
     list-style: none; }
-  #webkite-results.menu-landscape-international blockquote, #webkite-results.menu-landscape-international q {
+  #webkite-results.menu-landscape-international.webkite-dark blockquote, #webkite-results.menu-landscape-international.webkite-dark q {
     quotes: none; }
-  #webkite-results.menu-landscape-international blockquote:before, #webkite-results.menu-landscape-international blockquote:after {
+  #webkite-results.menu-landscape-international.webkite-dark blockquote:before, #webkite-results.menu-landscape-international.webkite-dark blockquote:after {
     content: '';
     content: none; }
-  #webkite-results.menu-landscape-international q:before, #webkite-results.menu-landscape-international q:after {
+  #webkite-results.menu-landscape-international.webkite-dark q:before, #webkite-results.menu-landscape-international.webkite-dark q:after {
     content: '';
     content: none; }
-  #webkite-results.menu-landscape-international table {
+  #webkite-results.menu-landscape-international.webkite-dark table {
     border-collapse: collapse;
     border-spacing: 0; }
 
 /****************************************** BEGIN STYLES */
-#webkite-results.menu-landscape-international {
+#webkite-results.menu-landscape-international.webkite-dark {
   background: rgba(0, 0, 0, 0.9);
   border: 1px solid rgba(255, 255, 255, 0.1);
   background-clip: padding-box;
@@ -70,61 +70,61 @@
   font-family: 'Open Sans', 'Arial', sans-serif;
   font-size: 12px;
   font: 400 12px/normal 'Open Sans', 'Arial', sans-serif; }
-  #webkite-results.menu-landscape-international a {
+  #webkite-results.menu-landscape-international.webkite-dark a {
     color: #1b9cd2;
     text-decoration: none; }
-    #webkite-results.menu-landscape-international a:hover {
+    #webkite-results.menu-landscape-international.webkite-dark a:hover {
       color: #0073a7; }
 
 /* TYPOGRAPHY */
-#webkite-results.menu-landscape-international h1, #webkite-results.menu-landscape-international h2, #webkite-results.menu-landscape-international h3 {
+#webkite-results.menu-landscape-international.webkite-dark h1, #webkite-results.menu-landscape-international.webkite-dark h2, #webkite-results.menu-landscape-international.webkite-dark h3 {
   margin: 0; }
-#webkite-results.menu-landscape-international h2 {
+#webkite-results.menu-landscape-international.webkite-dark h2 {
   font-size: 1.5em;
   font-weight: 700;
   font-family: Georgia, serif;
   color: rgba(255, 255, 255, 0.8);
   word-break: normal; }
-#webkite-results.menu-landscape-international h3 {
+#webkite-results.menu-landscape-international.webkite-dark h3 {
   font-size: 1.5em;
   font-weight: 700;
   font-family: Georgia, serif;
   color: rgba(255, 255, 255, 0.8); }
-#webkite-results.menu-landscape-international p, #webkite-results.menu-landscape-international li {
+#webkite-results.menu-landscape-international.webkite-dark p, #webkite-results.menu-landscape-international.webkite-dark li {
   color: rgba(255, 255, 255, 0.7); }
-#webkite-results.menu-landscape-international p.webkite-description {
+#webkite-results.menu-landscape-international.webkite-dark p.webkite-description {
   line-height: 1.3; }
 
 /******************************************** NAVIGATIONALS */
-#webkite-results.menu-landscape-international .webkite-results-header, #webkite-results.menu-landscape-international .webkite-results-footer {
+#webkite-results.menu-landscape-international.webkite-dark .webkite-results-header, #webkite-results.menu-landscape-international.webkite-dark .webkite-results-footer {
   text-align: justify;
   position: relative; }
-  #webkite-results.menu-landscape-international .webkite-results-header .webkite-sort-area, #webkite-results.menu-landscape-international .webkite-results-header .webkite-filter-area, #webkite-results.menu-landscape-international .webkite-results-footer .webkite-sort-area, #webkite-results.menu-landscape-international .webkite-results-footer .webkite-filter-area {
+  #webkite-results.menu-landscape-international.webkite-dark .webkite-results-header .webkite-sort-area, #webkite-results.menu-landscape-international.webkite-dark .webkite-results-header .webkite-filter-area, #webkite-results.menu-landscape-international.webkite-dark .webkite-results-footer .webkite-sort-area, #webkite-results.menu-landscape-international.webkite-dark .webkite-results-footer .webkite-filter-area {
     display: inline-block;
     vertical-align: top; }
-  #webkite-results.menu-landscape-international .webkite-results-header .webkite-branding-area, #webkite-results.menu-landscape-international .webkite-results-footer .webkite-branding-area {
+  #webkite-results.menu-landscape-international.webkite-dark .webkite-results-header .webkite-branding-area, #webkite-results.menu-landscape-international.webkite-dark .webkite-results-footer .webkite-branding-area {
     width: 102px;
     margin-right: -102px;
     display: inline-block;
     position: relative; }
-  #webkite-results.menu-landscape-international .webkite-results-header .webkite-branding-area a, #webkite-results.menu-landscape-international .webkite-results-footer .webkite-branding-area a {
+  #webkite-results.menu-landscape-international.webkite-dark .webkite-results-header .webkite-branding-area a, #webkite-results.menu-landscape-international.webkite-dark .webkite-results-footer .webkite-branding-area a {
     background: url("branding-dark.svg") center top no-repeat;
     background-size: 100%;
     display: inline-block;
     height: 34px;
     width: 102px; }
-#webkite-results.menu-landscape-international .webkite-results-header {
+#webkite-results.menu-landscape-international.webkite-dark .webkite-results-header {
   line-height: 1;
   margin-bottom: 20px; }
-  #webkite-results.menu-landscape-international .webkite-results-header::after {
+  #webkite-results.menu-landscape-international.webkite-dark .webkite-results-header::after {
     content: '';
     clear: both;
     display: table; }
-#webkite-results.menu-landscape-international .webkite-results-footer {
+#webkite-results.menu-landscape-international.webkite-dark .webkite-results-footer {
   font-size: 14px; }
 
 /************************************** DATASET NAME & EMBED */
-#webkite-results.menu-landscape-international .webkite-dataset-name {
+#webkite-results.menu-landscape-international.webkite-dark .webkite-dataset-name {
   color: rgba(255, 255, 255, 0.8);
   font-size: 22px;
   font-weight: bold;
@@ -132,9 +132,9 @@
   line-height: 1.1em;
   margin: -0.15em 0 15px;
   padding: 0; }
-  #webkite-results.menu-landscape-international .webkite-dataset-name + .webkite-embed-wrapper {
+  #webkite-results.menu-landscape-international.webkite-dark .webkite-dataset-name + .webkite-embed-wrapper {
     margin: -13px 0 5px; }
-#webkite-results.menu-landscape-international .webkite-embed-wrapper {
+#webkite-results.menu-landscape-international.webkite-dark .webkite-embed-wrapper {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -146,7 +146,7 @@
   height: 39px;
   position: relative;
   overflow: hidden; }
-#webkite-results.menu-landscape-international #webkite-embedder {
+#webkite-results.menu-landscape-international.webkite-dark #webkite-embedder {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -159,9 +159,9 @@
   right: 0;
   left: 0;
   z-index: 1; }
-#webkite-results.menu-landscape-international .webkite-embed-input {
+#webkite-results.menu-landscape-international.webkite-dark .webkite-embed-input {
   padding: 0 20px 0 70px; }
-  #webkite-results.menu-landscape-international .webkite-embed-input input {
+  #webkite-results.menu-landscape-international.webkite-dark .webkite-embed-input input {
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
@@ -179,7 +179,7 @@
     position: relative;
     width: 100%;
     top: -1px; }
-#webkite-results.menu-landscape-international .webkite-embed-select {
+#webkite-results.menu-landscape-international.webkite-dark .webkite-embed-select {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -193,7 +193,7 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis; }
-#webkite-results.menu-landscape-international .webkite-embed-hide {
+#webkite-results.menu-landscape-international.webkite-dark .webkite-embed-hide {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -207,12 +207,12 @@
   background: url('select-close-dark.png') no-repeat right center; }
 
 /************************************** SORTS AND FILTERS */
-#webkite-results.menu-landscape-international {
+#webkite-results.menu-landscape-international.webkite-dark {
   /* sorts */
   /* filters */
   /* tokens */
   /* clear everything */ }
-  #webkite-results.menu-landscape-international .webkite-sort-area > .webkite-toggle, #webkite-results.menu-landscape-international .webkite-primary-filter-menu > .webkite-toggle {
+  #webkite-results.menu-landscape-international.webkite-dark .webkite-sort-area > .webkite-toggle, #webkite-results.menu-landscape-international.webkite-dark .webkite-primary-filter-menu > .webkite-toggle {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -235,7 +235,7 @@
     height: 28px;
     width: 80px;
     white-space: nowrap; }
-    #webkite-results.menu-landscape-international .webkite-sort-area > .webkite-toggle > span, #webkite-results.menu-landscape-international .webkite-primary-filter-menu > .webkite-toggle > span {
+    #webkite-results.menu-landscape-international.webkite-dark .webkite-sort-area > .webkite-toggle > span, #webkite-results.menu-landscape-international.webkite-dark .webkite-primary-filter-menu > .webkite-toggle > span {
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
@@ -245,10 +245,10 @@
       text-overflow: ellipsis;
       padding-left: 8px;
       width: 100%; }
-  #webkite-results.menu-landscape-international .webkite-sort-area {
+  #webkite-results.menu-landscape-international.webkite-dark .webkite-sort-area {
     position: relative;
     z-index: 3; }
-  #webkite-results.menu-landscape-international .webkite-sort-area > .webkite-toggle i {
+  #webkite-results.menu-landscape-international.webkite-dark .webkite-sort-area > .webkite-toggle i {
     background: url("angle-dark.png") center center no-repeat;
     height: 10px;
     pointer-events: none;
@@ -257,30 +257,30 @@
     top: 50%;
     margin-top: -5px;
     right: 8px; }
-  #webkite-results.menu-landscape-international .webkite-filter-area {
+  #webkite-results.menu-landscape-international.webkite-dark .webkite-filter-area {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     width: 100%;
     position: relative; }
-  #webkite-results.menu-landscape-international .webkite-sort-area + .webkite-filter-area {
+  #webkite-results.menu-landscape-international.webkite-dark .webkite-sort-area + .webkite-filter-area {
     padding-left: 90px;
     margin-left: -80px; }
-  #webkite-results.menu-landscape-international .webkite-applied-filters {
+  #webkite-results.menu-landscape-international.webkite-dark .webkite-applied-filters {
     position: relative; }
-  #webkite-results.menu-landscape-international .webkite-primary-filter-menu {
+  #webkite-results.menu-landscape-international.webkite-dark .webkite-primary-filter-menu {
     position: absolute;
     left: 0;
     top: 0;
     vertical-align: top;
     z-index: 2; }
-  #webkite-results.menu-landscape-international .webkite-primary-filter-menu > .webkite-toggle {
+  #webkite-results.menu-landscape-international.webkite-dark .webkite-primary-filter-menu > .webkite-toggle {
     -webkit-border-radius: 3px 0 0 3px;
     -moz-border-radius: 3px 0 0 3px;
     -ms-border-radius: 3px 0 0 3px;
     -o-border-radius: 3px 0 0 3px;
     border-radius: 3px 0 0 3px; }
-  #webkite-results.menu-landscape-international .webkite-primary-filter-menu > .webkite-toggle i {
+  #webkite-results.menu-landscape-international.webkite-dark .webkite-primary-filter-menu > .webkite-toggle i {
     background: url("plus-dark.png") no-repeat;
     height: 12px;
     width: 12px;
@@ -289,7 +289,7 @@
     top: 50%;
     margin-top: -6px;
     right: 6px; }
-  #webkite-results.menu-landscape-international .current-filters {
+  #webkite-results.menu-landscape-international.webkite-dark .current-filters {
     -webkit-border-radius: 0 3px 3px 0;
     -moz-border-radius: 0 3px 3px 0;
     -ms-border-radius: 0 3px 3px 0;
@@ -309,21 +309,21 @@
     text-align: left;
     vertical-align: top;
     /* and & or */ }
-    #webkite-results.menu-landscape-international .current-filters span {
+    #webkite-results.menu-landscape-international.webkite-dark .current-filters span {
       color: rgba(127, 127, 127, 0.7);
       font-size: 14px;
       line-height: 1.2em;
       padding: 0 0.41667em 0 0;
       vertical-align: top; }
-  #webkite-results.menu-landscape-international .filter-token-wrapper {
+  #webkite-results.menu-landscape-international.webkite-dark .filter-token-wrapper {
     display: inline-block;
     max-width: 100%;
     overflow: hidden;
     white-space: nowrap;
     width: 100%; }
-    #webkite-results.menu-landscape-international .filter-token-wrapper > span:first-child {
+    #webkite-results.menu-landscape-international.webkite-dark .filter-token-wrapper > span:first-child {
       padding-left: 0.41667em; }
-  #webkite-results.menu-landscape-international a.webkite-remove-filter {
+  #webkite-results.menu-landscape-international.webkite-dark a.webkite-remove-filter {
     display: inline-block;
     max-width: 100%;
     overflow: hidden;
@@ -342,36 +342,36 @@
     text-align: left;
     word-wrap: normal;
     margin-right: 0.41667em; }
-    #webkite-results.menu-landscape-international a.webkite-remove-filter:hover {
+    #webkite-results.menu-landscape-international.webkite-dark a.webkite-remove-filter:hover {
       text-decoration: line-through; }
-  #webkite-results.menu-landscape-international [class^="filter-group"] {
+  #webkite-results.menu-landscape-international.webkite-dark [class^="filter-group"] {
     display: inline-block; }
-  #webkite-results.menu-landscape-international .filter-group-0 a.webkite-remove-filter {
+  #webkite-results.menu-landscape-international.webkite-dark .filter-group-0 a.webkite-remove-filter {
     background: #1b9cd2; }
-  #webkite-results.menu-landscape-international .filter-group-1 a.webkite-remove-filter {
+  #webkite-results.menu-landscape-international.webkite-dark .filter-group-1 a.webkite-remove-filter {
     background: #39a17c; }
-  #webkite-results.menu-landscape-international .filter-group-2 a.webkite-remove-filter {
+  #webkite-results.menu-landscape-international.webkite-dark .filter-group-2 a.webkite-remove-filter {
     background: #a8936f; }
-  #webkite-results.menu-landscape-international .filter-group-3 a.webkite-remove-filter {
+  #webkite-results.menu-landscape-international.webkite-dark .filter-group-3 a.webkite-remove-filter {
     background: #e6af52; }
-  #webkite-results.menu-landscape-international .filter-group-4 a.webkite-remove-filter {
+  #webkite-results.menu-landscape-international.webkite-dark .filter-group-4 a.webkite-remove-filter {
     background: #6f7ca8; }
-  #webkite-results.menu-landscape-international a.webkite-clear-filters {
+  #webkite-results.menu-landscape-international.webkite-dark a.webkite-clear-filters {
     background: url("clear-all-icon.png") center top no-repeat;
     height: 18px;
     width: 18px;
     position: absolute;
     right: 4px;
     top: 4px; }
-    #webkite-results.menu-landscape-international a.webkite-clear-filters:active {
+    #webkite-results.menu-landscape-international.webkite-dark a.webkite-clear-filters:active {
       background-position: 0 -18px; }
 
 /**************************************** SORT/FILTER MENU */
-#webkite-results.menu-landscape-international {
+#webkite-results.menu-landscape-international.webkite-dark {
   /* directional arrow */
   /* filter arrow */
   /* filter submenu*/ }
-  #webkite-results.menu-landscape-international .sort-menu, #webkite-results.menu-landscape-international .filter-menu {
+  #webkite-results.menu-landscape-international.webkite-dark .sort-menu, #webkite-results.menu-landscape-international.webkite-dark .filter-menu {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
@@ -391,22 +391,22 @@
     z-index: 4;
     top: 10px;
     left: 10px; }
-  #webkite-results.menu-landscape-international .sort-menu li, #webkite-results.menu-landscape-international .filter-menu li {
+  #webkite-results.menu-landscape-international.webkite-dark .sort-menu li, #webkite-results.menu-landscape-international.webkite-dark .filter-menu li {
     list-style-type: none;
     position: relative;
     padding-bottom: 0; }
-  #webkite-results.menu-landscape-international .sort-menu li a, #webkite-results.menu-landscape-international .filter-menu li .webkite-link, #webkite-results.menu-landscape-international .filter-menu li a {
+  #webkite-results.menu-landscape-international.webkite-dark .sort-menu li a, #webkite-results.menu-landscape-international.webkite-dark .filter-menu li .webkite-link, #webkite-results.menu-landscape-international.webkite-dark .filter-menu li a {
     color: #1b9cd2;
     display: block;
     padding: 2px 10px;
     white-space: pre; }
-    #webkite-results.menu-landscape-international .sort-menu li a:hover, #webkite-results.menu-landscape-international .filter-menu li .webkite-link:hover, #webkite-results.menu-landscape-international .filter-menu li a:hover {
+    #webkite-results.menu-landscape-international.webkite-dark .sort-menu li a:hover, #webkite-results.menu-landscape-international.webkite-dark .filter-menu li .webkite-link:hover, #webkite-results.menu-landscape-international.webkite-dark .filter-menu li a:hover {
       background: #1b9cd2;
       color: white; }
-  #webkite-results.menu-landscape-international .sort-menu li.active a {
+  #webkite-results.menu-landscape-international.webkite-dark .sort-menu li.active a {
     position: relative;
     padding-right: 30px; }
-    #webkite-results.menu-landscape-international .sort-menu li.active a.asc::after, #webkite-results.menu-landscape-international .sort-menu li.active a.desc::after {
+    #webkite-results.menu-landscape-international.webkite-dark .sort-menu li.active a.asc::after, #webkite-results.menu-landscape-international.webkite-dark .sort-menu li.active a.desc::after {
       background: url("sort-direction.png") no-repeat;
       content: "";
       display: block;
@@ -415,22 +415,22 @@
       position: absolute;
       top: 8px;
       right: 10px; }
-    #webkite-results.menu-landscape-international .sort-menu li.active a.asc::after {
+    #webkite-results.menu-landscape-international.webkite-dark .sort-menu li.active a.asc::after {
       background-position: 0 0; }
-    #webkite-results.menu-landscape-international .sort-menu li.active a.desc::after {
+    #webkite-results.menu-landscape-international.webkite-dark .sort-menu li.active a.desc::after {
       background-position: 0 -5px; }
-  #webkite-results.menu-landscape-international .filter-menu > li > .webkite-link {
+  #webkite-results.menu-landscape-international.webkite-dark .filter-menu > li > .webkite-link {
     color: #1b9cd2;
     cursor: pointer;
     padding-right: 20px;
     position: relative; }
-    #webkite-results.menu-landscape-international .filter-menu > li > .webkite-link::after {
+    #webkite-results.menu-landscape-international.webkite-dark .filter-menu > li > .webkite-link::after {
       color: rgba(127, 127, 127, 0.7);
       content: "\203A";
       opacity: 0.5;
       position: absolute;
       right: 6.66667px; }
-  #webkite-results.menu-landscape-international .filter-menu-child {
+  #webkite-results.menu-landscape-international.webkite-dark .filter-menu-child {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
@@ -448,11 +448,11 @@
     left: 100%;
     top: -10px;
     margin: 0; }
-  #webkite-results.menu-landscape-international .filter-menu li:hover .filter-menu-child {
+  #webkite-results.menu-landscape-international.webkite-dark .filter-menu li:hover .filter-menu-child {
     display: block; }
 
 /******************************* FILTER OVERVIEW AND SHADE */
-#webkite-results.menu-landscape-international .filter-token-wrapper.webkite-truncated:before {
+#webkite-results.menu-landscape-international.webkite-dark .filter-token-wrapper.webkite-truncated:before {
   content: "";
   background: url("gradient-fallback-dark.png") repeat-y;
   background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 5%, rgba(0, 0, 0, 0.2) 25%, rgba(0, 0, 0, 0.05) 75%, rgba(0, 0, 0, 0) 100%);
@@ -468,7 +468,7 @@
   left: -1px;
   top: -1px;
   bottom: -1px; }
-#webkite-results.menu-landscape-international .all-current-filters {
+#webkite-results.menu-landscape-international.webkite-dark .all-current-filters {
   -webkit-border-radius: 0 3px 3px 3px;
   -moz-border-radius: 0 3px 3px 3px;
   -ms-border-radius: 0 3px 3px 3px;
@@ -486,18 +486,18 @@
   right: -1px;
   left: -1px;
   z-index: 3; }
-  #webkite-results.menu-landscape-international .all-current-filters .all-filters-wrapper {
+  #webkite-results.menu-landscape-international.webkite-dark .all-current-filters .all-filters-wrapper {
     white-space: normal; }
-    #webkite-results.menu-landscape-international .all-current-filters .all-filters-wrapper > span:first-child {
+    #webkite-results.menu-landscape-international.webkite-dark .all-current-filters .all-filters-wrapper > span:first-child {
       padding-left: 0; }
-    #webkite-results.menu-landscape-international .all-current-filters .all-filters-wrapper [class^="filter-group"] {
+    #webkite-results.menu-landscape-international.webkite-dark .all-current-filters .all-filters-wrapper [class^="filter-group"] {
       display: inline; }
 
 /********************************************* PAGINATION */
-#webkite-results.menu-landscape-international {
+#webkite-results.menu-landscape-international.webkite-dark {
   /* page input */
   /* remove arrows */ }
-  #webkite-results.menu-landscape-international .webkite-pagination-area {
+  #webkite-results.menu-landscape-international.webkite-dark .webkite-pagination-area {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -508,32 +508,32 @@
     display: inline-block;
     vertical-align: top;
     line-height: 34px; }
-    #webkite-results.menu-landscape-international .webkite-pagination-area:empty {
+    #webkite-results.menu-landscape-international.webkite-dark .webkite-pagination-area:empty {
       display: none; }
-  #webkite-results.menu-landscape-international .webkite-results-paginator {
+  #webkite-results.menu-landscape-international.webkite-dark .webkite-results-paginator {
     font-size: 14px; }
-    #webkite-results.menu-landscape-international .webkite-results-paginator a, #webkite-results.menu-landscape-international .webkite-results-paginator p {
+    #webkite-results.menu-landscape-international.webkite-dark .webkite-results-paginator a, #webkite-results.menu-landscape-international.webkite-dark .webkite-results-paginator p {
       display: inline; }
-    #webkite-results.menu-landscape-international .webkite-results-paginator em {
+    #webkite-results.menu-landscape-international.webkite-dark .webkite-results-paginator em {
       font-style: italic; }
-    #webkite-results.menu-landscape-international .webkite-results-paginator a {
+    #webkite-results.menu-landscape-international.webkite-dark .webkite-results-paginator a {
       font-size: 1.2em;
       line-height: 0; }
-  #webkite-results.menu-landscape-international .first-result-page, #webkite-results.menu-landscape-international .previous-result-page {
+  #webkite-results.menu-landscape-international.webkite-dark .first-result-page, #webkite-results.menu-landscape-international.webkite-dark .previous-result-page {
     padding-right: 10px; }
-    #webkite-results.menu-landscape-international .first-result-page.disabled, #webkite-results.menu-landscape-international .previous-result-page.disabled {
+    #webkite-results.menu-landscape-international.webkite-dark .first-result-page.disabled, #webkite-results.menu-landscape-international.webkite-dark .previous-result-page.disabled {
       color: rgba(255, 255, 255, 0.7); }
-      #webkite-results.menu-landscape-international .first-result-page.disabled:hover, #webkite-results.menu-landscape-international .previous-result-page.disabled:hover {
+      #webkite-results.menu-landscape-international.webkite-dark .first-result-page.disabled:hover, #webkite-results.menu-landscape-international.webkite-dark .previous-result-page.disabled:hover {
         color: rgba(255, 255, 255, 0.7);
         cursor: default; }
-  #webkite-results.menu-landscape-international .next-result-page, #webkite-results.menu-landscape-international .last-result-page {
+  #webkite-results.menu-landscape-international.webkite-dark .next-result-page, #webkite-results.menu-landscape-international.webkite-dark .last-result-page {
     padding-left: 10px; }
-    #webkite-results.menu-landscape-international .next-result-page.disabled, #webkite-results.menu-landscape-international .last-result-page.disabled {
+    #webkite-results.menu-landscape-international.webkite-dark .next-result-page.disabled, #webkite-results.menu-landscape-international.webkite-dark .last-result-page.disabled {
       color: rgba(255, 255, 255, 0.7); }
-      #webkite-results.menu-landscape-international .next-result-page.disabled:hover, #webkite-results.menu-landscape-international .last-result-page.disabled:hover {
+      #webkite-results.menu-landscape-international.webkite-dark .next-result-page.disabled:hover, #webkite-results.menu-landscape-international.webkite-dark .last-result-page.disabled:hover {
         color: rgba(255, 255, 255, 0.7);
         cursor: default; }
-  #webkite-results.menu-landscape-international input.webkite-page-input {
+  #webkite-results.menu-landscape-international.webkite-dark input.webkite-page-input {
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
@@ -553,10 +553,10 @@
     font-size: 0.9em;
     line-height: 16px;
     text-align: center; }
-  #webkite-results.menu-landscape-international .webkite-page-input::-webkit-outer-spin-button, #webkite-results.menu-landscape-international .webkite-page-input::-webkit-inner-spin-button {
+  #webkite-results.menu-landscape-international.webkite-dark .webkite-page-input::-webkit-outer-spin-button, #webkite-results.menu-landscape-international.webkite-dark .webkite-page-input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0; }
-  #webkite-results.menu-landscape-international input[type=number] {
+  #webkite-results.menu-landscape-international.webkite-dark input[type=number] {
     -moz-appearance: textfield; }
 
 /************************************** ELEMENT QUERIES */
@@ -594,102 +594,102 @@
   padding-left: 0; }
 
 /********************************************** BLOCKS */
-#webkite-results.menu-landscape-international .webkite-block {
+#webkite-results.menu-landscape-international.webkite-dark .webkite-block {
   display: inline-block;
   vertical-align: top;
   text-align: left;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
-  #webkite-results.menu-landscape-international .webkite-block:first-child {
+  #webkite-results.menu-landscape-international.webkite-dark .webkite-block:first-child {
     padding-right: 10px; }
-  #webkite-results.menu-landscape-international .webkite-block.full {
+  #webkite-results.menu-landscape-international.webkite-dark .webkite-block.full {
     width: 100%;
     padding: 0;
     text-align: justify; }
-  #webkite-results.menu-landscape-international .webkite-block.seventy {
+  #webkite-results.menu-landscape-international.webkite-dark .webkite-block.seventy {
     width: 70%; }
-  #webkite-results.menu-landscape-international .webkite-block.sixty {
+  #webkite-results.menu-landscape-international.webkite-dark .webkite-block.sixty {
     width: 60%; }
-  #webkite-results.menu-landscape-international .webkite-block.forty {
+  #webkite-results.menu-landscape-international.webkite-dark .webkite-block.forty {
     width: 40%; }
-  #webkite-results.menu-landscape-international .webkite-block.thirty {
+  #webkite-results.menu-landscape-international.webkite-dark .webkite-block.thirty {
     width: 30%; }
 
 /********************************************** LISTS */
-#webkite-results.menu-landscape-international ul.webkite-list-grid {
+#webkite-results.menu-landscape-international.webkite-dark ul.webkite-list-grid {
   margin: 0;
   display: table;
   width: 100%;
   -webkit-padding-start: 0;
   -moz-padding-start: 0;
   text-align: left; }
-  #webkite-results.menu-landscape-international ul.webkite-list-grid li {
+  #webkite-results.menu-landscape-international.webkite-dark ul.webkite-list-grid li {
     list-style-type: none;
     display: table-row; }
-    #webkite-results.menu-landscape-international ul.webkite-list-grid li > div {
+    #webkite-results.menu-landscape-international.webkite-dark ul.webkite-list-grid li > div {
       display: table-cell;
       width: 45%;
       min-width: 80px;
       vertical-align: top;
       text-align: right;
       padding: 4px 0 5px; }
-    #webkite-results.menu-landscape-international ul.webkite-list-grid li .inline-filter-button {
+    #webkite-results.menu-landscape-international.webkite-dark ul.webkite-list-grid li .inline-filter-button {
       display: inline-block;
       margin-top: -4px;
       line-height: inherit; }
-    #webkite-results.menu-landscape-international ul.webkite-list-grid li b {
+    #webkite-results.menu-landscape-international.webkite-dark ul.webkite-list-grid li b {
       font-weight: 700;
       display: inline-block;
       vertical-align: top;
       margin-top: 1px;
       line-height: 1;
       max-width: 110px; }
-    #webkite-results.menu-landscape-international ul.webkite-list-grid li span.facet-values {
+    #webkite-results.menu-landscape-international.webkite-dark ul.webkite-list-grid li span.facet-values {
       font: 400 13px/1 Georgia, serif;
       display: table-cell;
       padding: 4px 0 5px 5px;
       vertical-align: top; }
-#webkite-results.menu-landscape-international ul.webkite-list-plain {
+#webkite-results.menu-landscape-international.webkite-dark ul.webkite-list-plain {
   margin: 0;
   -webkit-padding-start: 0;
   -moz-padding-start: 0; }
-  #webkite-results.menu-landscape-international ul.webkite-list-plain li {
+  #webkite-results.menu-landscape-international.webkite-dark ul.webkite-list-plain li {
     list-style-type: none;
     padding-bottom: 0;
     margin: 0; }
 
 /************************************ LANDSCAPE RESULTS */
-#webkite-results.menu-landscape-international {
+#webkite-results.menu-landscape-international.webkite-dark {
   /* groups */ }
-  #webkite-results.menu-landscape-international .webkite-results-wrapper {
+  #webkite-results.menu-landscape-international.webkite-dark .webkite-results-wrapper {
     margin-top: 0;
     margin-left: -10px;
     margin-right: -10px;
     margin-bottom: 20px; }
-  #webkite-results.menu-landscape-international .webkite-group-name {
+  #webkite-results.menu-landscape-international.webkite-dark .webkite-group-name {
     color: rgba(255, 255, 255, 0.7);
     font-size: 14px;
     font-weight: bold;
     line-height: 1em;
     text-align: center;
     text-transform: uppercase; }
-  #webkite-results.menu-landscape-international .webkite-group {
+  #webkite-results.menu-landscape-international.webkite-dark .webkite-group {
     margin-top: 20px; }
-  #webkite-results.menu-landscape-international .webkite-result {
+  #webkite-results.menu-landscape-international.webkite-dark .webkite-result {
     text-align: justify;
     position: relative;
     margin-bottom: 20px;
     padding: 0 10px;
     font-size: 12px;
     width: 50%; }
-    #webkite-results.menu-landscape-international .webkite-result:nth-child(even) {
+    #webkite-results.menu-landscape-international.webkite-dark .webkite-result:nth-child(even) {
       border-left: 1px dotted rgba(255, 255, 255, 0.2);
       margin-left: -1px; }
-    #webkite-results.menu-landscape-international .webkite-result h2 {
+    #webkite-results.menu-landscape-international.webkite-dark .webkite-result h2 {
       line-height: 1.1;
       margin-bottom: 2px; }
-    #webkite-results.menu-landscape-international .webkite-result .xs-price {
+    #webkite-results.menu-landscape-international.webkite-dark .webkite-result .xs-price {
       font-weight: 400;
       line-height: 1;
       margin: -2px 0 0;
@@ -697,34 +697,34 @@
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap; }
-  #webkite-results.menu-landscape-international .webkite-result-header {
+  #webkite-results.menu-landscape-international.webkite-dark .webkite-result-header {
     line-height: 1;
     margin-bottom: 4px;
     color: rgba(255, 255, 255, 0.55); }
-    #webkite-results.menu-landscape-international .webkite-result-header:empty {
+    #webkite-results.menu-landscape-international.webkite-dark .webkite-result-header:empty {
       display: none; }
-    #webkite-results.menu-landscape-international .webkite-result-header .webkite-meal {
+    #webkite-results.menu-landscape-international.webkite-dark .webkite-result-header .webkite-meal {
       text-transform: uppercase;
       font-weight: 700;
       font-size: 11px; }
-      #webkite-results.menu-landscape-international .webkite-result-header .webkite-meal a {
+      #webkite-results.menu-landscape-international.webkite-dark .webkite-result-header .webkite-meal a {
         text-transform: inherit;
         font-weight: inherit; }
-    #webkite-results.menu-landscape-international .webkite-result-header .webkite-diet {
+    #webkite-results.menu-landscape-international.webkite-dark .webkite-result-header .webkite-diet {
       font-style: italic;
       font-size: 13px; }
-      #webkite-results.menu-landscape-international .webkite-result-header .webkite-diet a {
+      #webkite-results.menu-landscape-international.webkite-dark .webkite-result-header .webkite-diet a {
         font-style: inherit;
         font-family: Georgia, serif; }
-    #webkite-results.menu-landscape-international .webkite-result-header .webkite-meal + .webkite-diet {
+    #webkite-results.menu-landscape-international.webkite-dark .webkite-result-header .webkite-meal + .webkite-diet {
       margin-top: 1px; }
-  #webkite-results.menu-landscape-international .price {
+  #webkite-results.menu-landscape-international.webkite-dark .price {
     text-align: right; }
-    #webkite-results.menu-landscape-international .price h3 {
+    #webkite-results.menu-landscape-international.webkite-dark .price h3 {
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap; }
-  #webkite-results.menu-landscape-international a.more-button, #webkite-results.menu-landscape-international a.less-button {
+  #webkite-results.menu-landscape-international.webkite-dark a.more-button, #webkite-results.menu-landscape-international.webkite-dark a.less-button {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -741,27 +741,27 @@
     padding: 4px 10px;
     margin-top: 8px;
     text-align: center; }
-  #webkite-results.menu-landscape-international a.more-button {
+  #webkite-results.menu-landscape-international.webkite-dark a.more-button {
     background: none; }
-    #webkite-results.menu-landscape-international a.more-button:hover {
+    #webkite-results.menu-landscape-international.webkite-dark a.more-button:hover {
       background: rgba(255, 255, 255, 0.1);
       border-color: rgba(255, 255, 255, 0.1); }
-  #webkite-results.menu-landscape-international a.less-button {
+  #webkite-results.menu-landscape-international.webkite-dark a.less-button {
     background: rgba(255, 255, 255, 0.7);
     border-color: transparent;
     color: rgba(0, 0, 0, 0.9); }
-    #webkite-results.menu-landscape-international a.less-button:hover {
+    #webkite-results.menu-landscape-international.webkite-dark a.less-button:hover {
       background: rgba(255, 255, 255, 0.7); }
-  #webkite-results.menu-landscape-international .webkite-result .webkite-item-details {
+  #webkite-results.menu-landscape-international.webkite-dark .webkite-result .webkite-item-details {
     margin-top: 10px; }
-    #webkite-results.menu-landscape-international .webkite-result .webkite-item-details .webkite-menu-nutrition {
+    #webkite-results.menu-landscape-international.webkite-dark .webkite-result .webkite-item-details .webkite-menu-nutrition {
       font-size: 11px;
       text-align: right;
       color: rgba(255, 255, 255, 0.7);
       line-height: 1.2; }
-      #webkite-results.menu-landscape-international .webkite-result .webkite-item-details .webkite-menu-nutrition li + li {
+      #webkite-results.menu-landscape-international.webkite-dark .webkite-result .webkite-item-details .webkite-menu-nutrition li + li {
         padding-top: 2px; }
-  #webkite-results.menu-landscape-international .webkite-result-footer {
+  #webkite-results.menu-landscape-international.webkite-dark .webkite-result-footer {
     clear: both;
     display: block;
     padding-top: 20px;
@@ -769,12 +769,12 @@
     text-align: right; }
 
 /************************************** INLINE FILTERS */
-#webkite-results.menu-landscape-international .webkite-block li b {
+#webkite-results.menu-landscape-international.webkite-dark .webkite-block li b {
   position: relative;
   text-align: left; }
-  #webkite-results.menu-landscape-international .webkite-block li b.inline-filter-button + .facet-values {
+  #webkite-results.menu-landscape-international.webkite-dark .webkite-block li b.inline-filter-button + .facet-values {
     padding-top: 5px; }
-  #webkite-results.menu-landscape-international .webkite-block li b > .webkite-toggle {
+  #webkite-results.menu-landscape-international.webkite-dark .webkite-block li b > .webkite-toggle {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -796,7 +796,7 @@
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis; }
-    #webkite-results.menu-landscape-international .webkite-block li b > .webkite-toggle i {
+    #webkite-results.menu-landscape-international.webkite-dark .webkite-block li b > .webkite-toggle i {
       background: url("angle-dark-sm.png") center center no-repeat;
       position: absolute;
       height: 7px;
@@ -805,10 +805,10 @@
       width: 7px;
       top: 50%;
       right: 4px; }
-    #webkite-results.menu-landscape-international .webkite-block li b > .webkite-toggle:hover {
+    #webkite-results.menu-landscape-international.webkite-dark .webkite-block li b > .webkite-toggle:hover {
       border: 1px solid rgba(255, 255, 255, 0.1);
       background: rgba(255, 255, 255, 0.05); }
-#webkite-results.menu-landscape-international .webkite-block .inline-filter-menu {
+#webkite-results.menu-landscape-international.webkite-dark .webkite-block .inline-filter-menu {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
@@ -829,9 +829,9 @@
   overflow-y: auto;
   z-index: 2;
   text-align: left; }
-  #webkite-results.menu-landscape-international .webkite-block .inline-filter-menu li {
+  #webkite-results.menu-landscape-international.webkite-dark .webkite-block .inline-filter-menu li {
     padding-bottom: 0; }
-    #webkite-results.menu-landscape-international .webkite-block .inline-filter-menu li a {
+    #webkite-results.menu-landscape-international.webkite-dark .webkite-block .inline-filter-menu li a {
       color: #1b9cd2;
       display: block;
       font-size: 12px;
@@ -839,83 +839,83 @@
       max-width: 100%;
       padding: 2px 20px 2px 8px;
       white-space: pre; }
-      #webkite-results.menu-landscape-international .webkite-block .inline-filter-menu li a:hover {
+      #webkite-results.menu-landscape-international.webkite-dark .webkite-block .inline-filter-menu li a:hover {
         background: #1b9cd2;
         color: white; }
 
 /******************************************* NO RESULTS */
-#webkite-results.menu-landscape-international .webkite-no-results {
+#webkite-results.menu-landscape-international.webkite-dark .webkite-no-results {
   padding: 0 10px;
   font-size: 12px; }
-  #webkite-results.menu-landscape-international .webkite-no-results h2 {
+  #webkite-results.menu-landscape-international.webkite-dark .webkite-no-results h2 {
     margin-bottom: 20px; }
 
 /************************************** ELEMENT QUERIES */
-#webkite-results.menu-landscape-international.xs .webkite-block {
+#webkite-results.menu-landscape-international.webkite-dark.xs .webkite-block {
   width: 100%;
   padding-right: 0; }
-#webkite-results.menu-landscape-international.xs .webkite-results-wrapper {
+#webkite-results.menu-landscape-international.webkite-dark.xs .webkite-results-wrapper {
   margin: 0 0 20px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
-#webkite-results.menu-landscape-international.xs .webkite-group-name {
+#webkite-results.menu-landscape-international.webkite-dark.xs .webkite-group-name {
   text-align: left; }
-#webkite-results.menu-landscape-international.xs .webkite-result {
+#webkite-results.menu-landscape-international.webkite-dark.xs .webkite-result {
   width: 100%;
   border: none;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   margin: 0 0 20px;
   padding: 0 0 20px; }
-  #webkite-results.menu-landscape-international.xs .webkite-result:nth-child(even) {
+  #webkite-results.menu-landscape-international.webkite-dark.xs .webkite-result:nth-child(even) {
     border-left: none; }
-  #webkite-results.menu-landscape-international.xs .webkite-result:last-child {
+  #webkite-results.menu-landscape-international.webkite-dark.xs .webkite-result:last-child {
     border-bottom: none;
     padding-bottom: 0px; }
-  #webkite-results.menu-landscape-international.xs .webkite-result .webkite-item-details .webkite-menu-nutrition {
+  #webkite-results.menu-landscape-international.webkite-dark.xs .webkite-result .webkite-item-details .webkite-menu-nutrition {
     font-size: 12px;
     text-align: left;
     float: none;
     margin-top: 5px; }
-#webkite-results.menu-landscape-international.xs ul.webkite-list-grid li > div {
+#webkite-results.menu-landscape-international.webkite-dark.xs ul.webkite-list-grid li > div {
   width: 25%; }
-#webkite-results.menu-landscape-international.xs .webkite-block .inline-filter-menu li a {
+#webkite-results.menu-landscape-international.webkite-dark.xs .webkite-block .inline-filter-menu li a {
   max-width: 100%;
   width: auto; }
-#webkite-results.menu-landscape-international.xs .webkite-no-results {
+#webkite-results.menu-landscape-international.webkite-dark.xs .webkite-no-results {
   padding: 0;
   margin: 0 0 20px; }
 
-#webkite-results.menu-landscape-international.sm .webkite-results-wrapper {
+#webkite-results.menu-landscape-international.webkite-dark.sm .webkite-results-wrapper {
   margin: 0 0 20px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
-#webkite-results.menu-landscape-international.sm .webkite-result {
+#webkite-results.menu-landscape-international.webkite-dark.sm .webkite-result {
   width: 100%;
   border: none;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   margin: 0 0 20px;
   padding: 0 0 20px; }
-  #webkite-results.menu-landscape-international.sm .webkite-result:nth-child(odd) {
+  #webkite-results.menu-landscape-international.webkite-dark.sm .webkite-result:nth-child(odd) {
     border-right: none; }
-  #webkite-results.menu-landscape-international.sm .webkite-result:nth-child(even) {
+  #webkite-results.menu-landscape-international.webkite-dark.sm .webkite-result:nth-child(even) {
     border-left: none;
     margin-left: 0; }
-  #webkite-results.menu-landscape-international.sm .webkite-result:last-child {
+  #webkite-results.menu-landscape-international.webkite-dark.sm .webkite-result:last-child {
     border-bottom: none;
     padding-bottom: 0px; }
-  #webkite-results.menu-landscape-international.sm .webkite-result .webkite-item-details .webkite-menu-nutrition {
+  #webkite-results.menu-landscape-international.webkite-dark.sm .webkite-result .webkite-item-details .webkite-menu-nutrition {
     font-size: 12px; }
-#webkite-results.menu-landscape-international.sm ul.webkite-list-grid li > div {
+#webkite-results.menu-landscape-international.webkite-dark.sm ul.webkite-list-grid li > div {
   width: 30%; }
-#webkite-results.menu-landscape-international.sm .webkite-no-results {
+#webkite-results.menu-landscape-international.webkite-dark.sm .webkite-no-results {
   padding: 0;
   margin: 0 0 20px; }
 
 /*************************** DISPLAY RULES */
-#webkite-results.menu-landscape-international .xs-only {
+#webkite-results.menu-landscape-international.webkite-dark .xs-only {
   display: none; }
-#webkite-results.menu-landscape-international .until-xs {
+#webkite-results.menu-landscape-international.webkite-dark .until-xs {
   display: block; }
 
-#webkite-results.menu-landscape-international.xs .xs-only {
+#webkite-results.menu-landscape-international.webkite-dark.xs .xs-only {
   display: block; }
-#webkite-results.menu-landscape-international.xs .until-xs {
+#webkite-results.menu-landscape-international.webkite-dark.xs .until-xs {
   display: none; }

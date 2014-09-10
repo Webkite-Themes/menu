@@ -5,12 +5,12 @@ $themeName:menu-landscape-international;
 @import '../globals/universals';
 
 /* RESET */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   @include resetThings;
   }
 
 /****************************************** BEGIN STYLES */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   background: $backgroundColor;
   border: 1px solid $lighterOpacity;
   background-clip: padding-box;
@@ -29,7 +29,7 @@ $themeName:menu-landscape-international;
   }
   
 /* TYPOGRAPHY */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   h1, h2, h3{
     margin: 0;
     }
@@ -58,7 +58,7 @@ $themeName:menu-landscape-international;
 @include universalStyles;
   
 /********************************************** BLOCKS */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   .webkite-block{
     display: inline-block;
     vertical-align: top;
@@ -79,7 +79,7 @@ $themeName:menu-landscape-international;
   }
   
 /********************************************** LISTS */
-#webkite-results.#{$themeName} {
+#webkite-results.#{$themeName}.webkite-#{$colorVariant} {
   ul.webkite-list-grid {
     margin:0;
     display:table;
@@ -122,7 +122,7 @@ $themeName:menu-landscape-international;
   
   
 /************************************ LANDSCAPE RESULTS */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   .webkite-results-wrapper {
     margin-top:0;
     margin-left: -$mainGutter/2;
@@ -238,7 +238,7 @@ $themeName:menu-landscape-international;
   }
   
 /************************************** INLINE FILTERS */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
 
   .webkite-block li b{
     position: relative;
@@ -309,7 +309,7 @@ $themeName:menu-landscape-international;
 }
 
 /******************************************* NO RESULTS */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   
   .webkite-no-results{
     padding: 0 $mainGutter/2;
@@ -322,7 +322,7 @@ $themeName:menu-landscape-international;
   }
   
 /************************************** ELEMENT QUERIES */
-#webkite-results.#{$themeName}.xs{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}.xs{
   .webkite-block{
     width: 100%;
     padding-right: 0;
@@ -364,7 +364,7 @@ $themeName:menu-landscape-international;
     }    
   }
   
-#webkite-results.#{$themeName}.sm{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}.sm{
   .webkite-results-wrapper {
     margin:0 0 $mainGutter;
     border-bottom:1px solid $lighterOpacity;
@@ -397,11 +397,11 @@ $themeName:menu-landscape-international;
   }
   
 /*************************** DISPLAY RULES */
-#webkite-results.#{$themeName} {
+#webkite-results.#{$themeName}.webkite-#{$colorVariant} {
   .xs-only {display:none;}
   .until-xs {display:block;}
   }
-#webkite-results.#{$themeName}.xs {
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}.xs {
   .xs-only {display:block;}
   .until-xs {display:none;}
   }

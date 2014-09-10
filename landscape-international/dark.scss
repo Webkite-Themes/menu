@@ -7,12 +7,12 @@ $dottedBorder: rgba(255,255,255,0.2);
 @import '../globals/universals';
 
 /* RESET */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   @include resetThings;
   }
 
 /****************************************** BEGIN STYLES */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   background: $backgroundColor;
   border: 1px solid $lighterOpacity;
   background-clip: padding-box;
@@ -31,7 +31,7 @@ $dottedBorder: rgba(255,255,255,0.2);
   }
   
 /* TYPOGRAPHY */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   h1, h2, h3{
     margin: 0;
     }
@@ -60,7 +60,7 @@ $dottedBorder: rgba(255,255,255,0.2);
 @include universalStyles;
   
 /********************************************** BLOCKS */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   .webkite-block{
     display: inline-block;
     vertical-align: top;
@@ -81,7 +81,7 @@ $dottedBorder: rgba(255,255,255,0.2);
   }
   
 /********************************************** LISTS */
-#webkite-results.#{$themeName} {
+#webkite-results.#{$themeName}.webkite-#{$colorVariant} {
   ul.webkite-list-grid {
     margin:0;
     display:table;
@@ -124,7 +124,7 @@ $dottedBorder: rgba(255,255,255,0.2);
   
   
 /************************************ LANDSCAPE RESULTS */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   .webkite-results-wrapper {
     margin-top:0;
     margin-left: -$mainGutter/2;
@@ -240,7 +240,7 @@ $dottedBorder: rgba(255,255,255,0.2);
   }
   
 /************************************** INLINE FILTERS */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
 
   .webkite-block li b{
     position: relative;
@@ -311,7 +311,7 @@ $dottedBorder: rgba(255,255,255,0.2);
 }
 
 /******************************************* NO RESULTS */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   
   .webkite-no-results{
     padding: 0 $mainGutter/2;
@@ -324,7 +324,7 @@ $dottedBorder: rgba(255,255,255,0.2);
   }
   
 /************************************** ELEMENT QUERIES */
-#webkite-results.#{$themeName}.xs{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}.xs{
   .webkite-block{
     width: 100%;
     padding-right: 0;
@@ -366,7 +366,7 @@ $dottedBorder: rgba(255,255,255,0.2);
     }    
   }
   
-#webkite-results.#{$themeName}.sm{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}.sm{
   .webkite-results-wrapper {
     margin:0 0 $mainGutter;
     border-bottom:1px solid $lighterOpacity;
@@ -399,11 +399,11 @@ $dottedBorder: rgba(255,255,255,0.2);
   }
   
 /*************************** DISPLAY RULES */
-#webkite-results.#{$themeName} {
+#webkite-results.#{$themeName}.webkite-#{$colorVariant} {
   .xs-only {display:none;}
   .until-xs {display:block;}
   }
-#webkite-results.#{$themeName}.xs {
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}.xs {
   .xs-only {display:block;}
   .until-xs {display:none;}
   }
