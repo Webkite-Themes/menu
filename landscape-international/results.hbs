@@ -46,10 +46,17 @@
               </div><!--
            --><div class="webkite-block thirty price">
                 {{#facet name="Price"}}<h3 class="until-xs" title="{{displayValue}}">{{displayValue}}</h3>{{/facet}}
-                {{#any (find facets name="Meal") (find facets name="Dish Type") (find facets name="Diet") (find facets name="Calories") (find facets name="Total Fat (g)") (find facets name="Cholesterol (mg)")}}
-                  <a href="#{{this.id}}" data-id={{this.id}} class="webkite-toggle-item webkite-toggle {{this.id}}-toggler{{#if showDetails}} webkite-hide{{/if}} more-button" data-target=".{{this.id}}-toggler" data-speed="200ms">{{downcase (t "More" default="more")}}</a>
-                  <a href="#{{this.id}}" data-id={{this.id}} class="webkite-toggle-item webkite-toggle {{this.id}}-toggler{{#unless showDetails}} webkite-hide{{/unless}} less-button" data-target=".{{this.id}}-toggler" data-speed="200ms">{{downcase (t "Less" default="less")}}</a>
-                {{/any}}
+                {{#if @key}}
+                  {{#any (find facets name="Dish Type") (find facets name="Diet") (find facets name="Calories") (find facets name="Total Fat (g)") (find facets name="Cholesterol (mg)")}}
+                    <a href="#{{this.id}}" data-id={{this.id}} class="webkite-toggle-item webkite-toggle {{this.id}}-toggler{{#if showDetails}} webkite-hide{{/if}} more-button" data-target=".{{this.id}}-toggler" data-speed="200ms">{{downcase (t "More" default="more")}}</a>
+                    <a href="#{{this.id}}" data-id={{this.id}} class="webkite-toggle-item webkite-toggle {{this.id}}-toggler{{#unless showDetails}} webkite-hide{{/unless}} less-button" data-target=".{{this.id}}-toggler" data-speed="200ms">{{downcase (t "Less" default="less")}}</a>
+                  {{/any}}
+                {{else}}
+                  {{#any (find facets name="Meal") (find facets name="Dish Type") (find facets name="Diet") (find facets name="Calories") (find facets name="Total Fat (g)") (find facets name="Cholesterol (mg)")}}
+                    <a href="#{{this.id}}" data-id={{this.id}} class="webkite-toggle-item webkite-toggle {{this.id}}-toggler{{#if showDetails}} webkite-hide{{/if}} more-button" data-target=".{{this.id}}-toggler" data-speed="200ms">{{downcase (t "More" default="more")}}</a>
+                    <a href="#{{this.id}}" data-id={{this.id}} class="webkite-toggle-item webkite-toggle {{this.id}}-toggler{{#unless showDetails}} webkite-hide{{/unless}} less-button" data-target=".{{this.id}}-toggler" data-speed="200ms">{{downcase (t "Less" default="less")}}</a>
+                  {{/any}}
+                {{/if}}
               </div>
             </div>
                 
