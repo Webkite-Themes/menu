@@ -95,6 +95,11 @@
 #webkite-results.menu-landscape-international.webkite-dark p.webkite-description {
   line-height: 1.3; }
 
+/******************************************** GENERAL */
+#webkite-results.menu-landscape-international.webkite-dark {
+  text-align: left;
+  direction: ltr; }
+
 /******************************************** NAVIGATIONALS */
 #webkite-results.menu-landscape-international.webkite-dark .webkite-results-header, #webkite-results.menu-landscape-international.webkite-dark .webkite-results-footer {
   text-align: justify;
