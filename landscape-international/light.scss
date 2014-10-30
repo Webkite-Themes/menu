@@ -159,13 +159,17 @@ $themeName:menu-landscape-international;
       margin-bottom:$mainGutter/10;
       }
     .xs-price {
-      font-weight:400;
-      line-height:1;
       margin:-$mainGutter/10 0 0;
-      padding-bottom:$mainGutter/2.5;
-      overflow:hidden;
-      text-overflow: ellipsis;
-      white-space:nowrap;
+      span{
+        display:inline-block;
+        font-weight:400;
+        line-height:1;
+        padding-bottom:$mainGutter/2.5;
+        max-width:100%;
+        overflow:hidden;
+        text-overflow: ellipsis;
+        white-space:nowrap;
+        }
       }
     }
   .webkite-result-header {
@@ -189,9 +193,16 @@ $themeName:menu-landscape-international;
   .price{
     text-align: right;
     h3 {
-      overflow:hidden;
-      text-overflow: ellipsis;
-      white-space:nowrap;
+      text-align:right;
+      span{
+        display:inline-block;
+        max-width:100%;
+        overflow:hidden;
+        text-overflow: ellipsis;
+        white-space:nowrap;
+        padding:3px 0;
+        margin:-3px 0;
+        }
       }
     }
   a.more-button, a.less-button{
